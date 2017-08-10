@@ -1,0 +1,47 @@
+@font-face {
+  font-family: 'TuAdmin';
+  src:  url('../fonts/TuAdmin.eot?3oyzsw');
+  src:  url('../fonts/TuAdmin.eot?3oyzsw#iefix') format('embedded-opentype'),
+    url('../fonts/TuAdmin.ttf?3oyzsw') format('truetype'),
+    url('../fonts/TuAdmin.woff?3oyzsw') format('woff'),
+    url('../fonts/TuAdmin.svg?3oyzsw#TuAdmin') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.ta-icon {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'TuAdmin' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.crm:before{content:"\e900"}
+.gestion-de-ventas:before{content:"\e901"}
+.punto-de-ventas:before{content:"\e902"}
+.facturacion:before{content:"\e903"}
+.credito-y-cobranza:before{content:"\e904"}
+.compras:before{content:"\e905"}
+.recursos-humanos:before{content:"\e906"}
+.contabilidad:before{content:"\e907"}
+.nomina:before{content:"\e908"}
+.almacenes:before{content:"\e909"}
+.productos:before{content:"\e909";color:#fff}
+.proyectos-en-ejecucion:before{content:"\e90a"}
+.costos:before{content:"\e90b"}
+.modulo-de-produccion:before{content:"\e90c"}
+.sistema:before{content:"\e90d"}
+.direccion:before{content:"\e90e"}
+.scada:before{content:"\e90f"}
+.ayuda:before{content:"\e910"}
+.salir:before{content:"\e911"}
+.escritorio:before{content:"\e912"}
+.banco-y-pagos:before{content:"\e913"}
+.pagos:before{content:"\e914"}
